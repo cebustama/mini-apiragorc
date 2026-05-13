@@ -1,0 +1,83 @@
+.
+├── .env
+├── .pytest_cache
+│   ├── .gitignore
+│   ├── CACHEDIR.TAG
+│   ├── README.md
+│   └── v
+│       └── cache
+│           ├── lastfailed
+│           └── nodeids
+├── Dockerfile
+├── README.md
+├── api
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── main.cpython-312.pyc
+│   └── main.py
+├── audit
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── auditor.cpython-312.pyc
+│   └── auditor.py
+├── docker-compose.yml
+├── make-tree-unity.bat
+├── make-tree-unity.bat:Zone.Identifier
+├── requirements.txt
+├── swarm
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── agents.cpython-312.pyc
+│   │   ├── consumer.cpython-312.pyc
+│   │   ├── executor.cpython-312.pyc
+│   │   └── orchestrator.cpython-312.pyc
+│   ├── agents
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── kafka_diagnosis_agent.cpython-312.pyc
+│   │   │   └── schemas.cpython-312.pyc
+│   │   ├── kafka_diagnosis_agent.py
+│   │   └── schemas.py
+│   ├── consumer.py
+│   ├── executor.py
+│   ├── llm
+│   │   ├── __pycache__
+│   │   │   ├── bedrock_client.cpython-312.pyc
+│   │   │   └── client.cpython-312.pyc
+│   │   ├── bedrock_client.py
+│   │   └── client.py
+│   ├── orchestrator.py
+│   └── planner
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-312.pyc
+│       │   ├── kafka_rules.cpython-312.pyc
+│       │   ├── llm_planner.cpython-312.pyc
+│       │   ├── prompts.cpython-312.pyc
+│       │   └── schemas.cpython-312.pyc
+│       ├── kafka_rules.py
+│       ├── llm_planner.py
+│       ├── prompts.py
+│       └── schemas.py
+├── test_kafka_agent_manual.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── test_executor.cpython-312-pytest-9.0.3.pyc
+│   │   └── test_llm_planner.cpython-312-pytest-9.0.3.pyc
+│   ├── test_executor.py
+│   └── test_llm_planner.py
+├── tools
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── tools_api.cpython-312.pyc
+│   └── tools_api.py
+└── tree.txt
+
+20 directories, 61 files

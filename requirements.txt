@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+kafka-python
+pydantic
+requests
+pytest
+python-dotenv
+boto3
+httpx

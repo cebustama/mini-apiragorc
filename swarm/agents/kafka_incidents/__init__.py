@@ -1,0 +1,1 @@
+# Kafka incident fixtures for diagnosis evaluation
